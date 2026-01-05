@@ -1,0 +1,58 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #f2f2f2;
+    display: flex;
+    justify-content: center;
+    padding-top: 40px;
+}
+
+.container {
+    background: #fff;
+    padding: 20px;
+    width: 400px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.criar-conta {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 15px;
+}
+
+.criar-conta input {
+    flex: 1;
+    padding: 10px;
+}
+
+.criar-conta button {
+    padding: 8px 12px;
+    cursor: pointer;
+}
+
+.contas ul {
+    list-style: none;
+    padding: 0;
+}
+
+.contas li {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 6px;
+    background: #eee;
+    margin-bottom: 5px;
+    border-radius: 4px;
+}
+
+.contas li:hover {
+    background: #ddd;
+}
+
+.contas input[type="checkbox"] {
+    cursor: pointer;
+}
+
+.contas span {
+    cursor: pointer;
+}
